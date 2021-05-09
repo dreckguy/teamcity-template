@@ -27,6 +27,7 @@ version = "2020.2"
 
 project {
     description = "template directory"
+    defaultTemplate = RelativeId("DotnetContainer")
 
     template(DotnetContainer)
 }
